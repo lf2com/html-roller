@@ -17,7 +17,7 @@ const { args, argv } = (0, arguments_1.getArguments)({
     argList,
     inputArgv: process.argv.slice(2),
 });
-const { input = argv[0], output = argv[1], minify = false, help, } = args;
+const { input = argv.shift(), output = argv.shift(), minify = false, help, } = args;
 if (help
     || typeof output !== 'string'
     || typeof input !== 'string') {

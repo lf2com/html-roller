@@ -1,6 +1,6 @@
 {
   "name": "rollhtml",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Rollhtml is a JS module flattening the imports of source HTML and outputing to target directory.",
   "main": "src/index.ts",
   "private": false,
