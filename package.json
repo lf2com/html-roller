@@ -1,9 +1,14 @@
 {
-  "name": "html-roller",
+  "name": "rollhtml",
   "version": "0.0.1",
-  "description": "Html-roller is a JS module flattening the imports of source HTML and outputing to target directory.",
+  "description": "Rollhtml is a JS module flattening the imports of source HTML and outputing to target directory.",
   "main": "src/index.ts",
-  "x-main": "dist/index.js",
+  "private": false,
+  "bin": "dist/cli.js",
+  "files": [
+    "dist/*.js",
+    "dist/**/*.js"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "eslint src --ext .ts",
